@@ -34,12 +34,12 @@ header{
         left:530px;
     }
  }
- @media(min-width:800px) {
+ @media(min-width: 800px) {
     .but1{
         display:none;
     }
  }
- @media (max-width:550px) {
+ @media (max-width: 550px) {
     .but1{
         position:absolute;
         top:30px;
