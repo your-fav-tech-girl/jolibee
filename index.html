@@ -5,7 +5,7 @@
             Jollibee
         </title>
         <meta charset="utf-8">
-        <meta name="viewport" width="device-width" initial-scale="1.0">
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles.css">
     </head>
  
@@ -15,7 +15,8 @@
         </div>
 
      <div class="nav-bar">
-        <ul>
+        <div class="burger" onclick="toggleNav()">&#9776;</div>
+        <ul class="nav-links" id="navLinks">
             <li><a href="#"><b>Delivery</b></a></li>
             <li><a href="#"><b>Locations</b></a></li>
             <li><a href="#"><b>Menu</b></a></li>
@@ -26,9 +27,6 @@
     <div class="but">
         <a href="#"><b>Order Now</b></a>
         </div>
-        <div class="but1">
-            <a href="#"><img src="image/preview.png" width="40px"></a>
-        </div>
      </header>
 
 <body>
@@ -38,7 +36,7 @@
     <img src="https://queen.jollibee.com.ph/2021/12/home_banner_1.png" height="500px">
     <div class="have">
     <h1>Bringing joy to you<br><br></h1>
-    <p>Have your Jollibee favorites delivered <br>right to your doorstep!</p>
+    <p>Have your Jollibee favorites delivered right to your doorstep!</p>
     
     <div class="now">
         <a href="#"><b>Order Now</b></a>
@@ -136,72 +134,40 @@
      <div class="f.img">
         <img src="https://queen.jollibee.com.ph/2022/02/jollibee-logo-footer-2x.png" width="280px">
      </div>
-   <table>
-    <tr>
-        <th>How to Order</th>
-        <th>Promotions</th>
-        <th>About us</th>
-        <th>About Our Website</th>
-    </tr>
-
-      <tr>
-     <td><a href="#">View Menu</a></td>
-     <td><a href="#">Promos</a></td>
-     <td><a href="#">About Jollibee</a></td>
-     <td><a href="#">Privacy</a></td>
-     </tr>
-
-     <tr>
-        <td><a href="#">Delivery</a></td>
-        <td><a href="#">Gift Cards</a></td>
-        <td><a href="#">Corporate Information</a></td>
-        <td><a href="#">Terms &Conditions</a></td>
-     </tr>
-     <tr>
-        <td><a href="#">Multi-delivery</a></td>
-        <td><a href="#"></a></td>
-        <td><a href="#">Safety</a></td>
-        <td><a href="#">Accessibility</a></td>
-     </tr>
-     
-     <tr>
-        <td><a href="#">Locations</a></td>
-        <td><a></a></td>
-        <td><a href="#">Investors</a></td>
-        <td><a href="#">Sitemap</a></td>
-     </tr>
-      
-     <tr>
-        <td><a></a></td>
-        <td><a></a></td>
-        <td><a href="#">Frinchising</a></td>
-        <td><a></a></td>
-     </tr>
-     <tr>
-        <td><a></a></td>
-        <td><a></a></td>
-        <td><a href="#">Careers</a></td>
-        <td><a></a></td>
-     </tr>
-    <tr>
-        <td><a></a></td>
-        <td><a></a></td>
-        <td><a href="#">Jollibee Group Foundation</a></td>
-        <td><a></a></td>
-    </tr>
-    <tr>
-        <td><a></a></td>
-        <td><a></a></td>
-        <td><a href="#">Contact Us</a></td>
-        <td><a></a></td>
-    </tr>
-     <tr>
-        <td><a></a></td>
-        <td><a></a></td>
-        <td><a href="#">Rate our Stores</a></td>
-        <td><a></a></td>
-     </tr>
-   </table>
+     <footer class="footer-container">
+        <div class="footer-section">
+            <h3>How to Order</h3>
+            <a href="#">View Menu</a>
+            <a href="#">Delivery</a>
+            <a href="#">Multi-delivery</a>
+            <a href="#">Locations</a>
+        </div>
+        <div class="footer-section">
+            <h3>Promotions</h3>
+            <a href="#">Promos</a>
+            <a href="#">Gift Cards</a>
+        </div>
+        <div class="footer-section">
+            <h3>About us</h3>
+            <a href="#">About Jollibee</a>
+            <a href="#">Corporate Information</a>
+            <a href="#">Safety</a>
+            <a href="#">Investors</a>
+            <a href="#">Franchising</a>
+            <a href="#">Careers</a>
+            <a href="#">Jollibee Group Foundation</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Rate our Stores</a>
+        </div>
+        <div class="footer-section">
+            <h3>About Our Website</h3>
+            <a href="#">Privacy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Accessibility</a>
+            <a href="#">Sitemap</a>
+        </div>
+    </footer>
+   
     <div class="button"><a href="#"><b>Order Now</b></a></div>
        <p style="font-size:13px; margin-bottom:60px">© 2022 Jollibee Foods Corporation. All rights reserved.</p>
      <div class="apple">
@@ -220,6 +186,6 @@
 
 
    </div>
-
+<script src="app.js"></script>
 </body>
 </html>
